@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #88e8e3
+}
+p{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+.header{
+	min-height: 100px;
+	margin-bottom: 10px;
+	background-color: red;
+}
+.banner{
+	min-height: 300px;
+	margin-bottom: 10px;
+	background-color: black;
+}
+.section{
+	overflow: hidden;
+	/*min-height: 600px;*/
+	margin-bottom: 10px;
+	background-color: green;
+}
+.aside{
+	min-height: 600px;
+	width: 40%;
+	float: left;
+	background-color: orange;
+}
+.content{
+	min-height: 600px;
+	width: 59%;
+	float: right;
+	background-color: blue;
+
+}
+.service{
+	overflow: hidden;
+	margin-bottom: 10px;
+	background-color: red;
+}
+.service1, .service2, .service3{
+	min-height: 280px;
+	width: 31%;
+	float: left;
+	background-color: orange;
+	margin: 10px 1.1%;
+}
+.footer{
+	min-height: 100px;
+	background-color: pink;
+}
